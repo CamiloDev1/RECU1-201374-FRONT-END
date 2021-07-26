@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="450.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+   <children>
+      <TextArea fx:id="men" layoutY="48.0" prefHeight="406.0" prefWidth="450.0" style="-fx-background-color: greey;" />
+      <TextField fx:id="txtName" layoutY="-1.0" prefHeight="49.0" prefWidth="179.0" promptText="Nombre Usuario" />
+      <Button layoutX="348.0" layoutY="454.0" mnemonicParsing="false" onAction="#handle" prefHeight="49.0" prefWidth="103.0" style="-fx-background-radius: pink; -fx-background-color: yellow;" text="Enviar" />
+      <TextField fx:id="txtInput" layoutY="454.0" prefHeight="49.0" prefWidth="348.0" promptText="Escribe tu mensaje" />
+      <Button layoutX="294.0" layoutY="-1.0" mnemonicParsing="false" onAction="#conectar" prefHeight="49.0" prefWidth="156.0" style="-fx-background-radius: pink; -fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: pink;" text="Iniciar" />
+   </children>
+</AnchorPane>
